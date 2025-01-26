@@ -30,9 +30,9 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+				className={`${geistSans.variable} ${geistMono.variable} antialiased  bg-gray-600 `}
 			>
-				<h2>contenido del layout {1 + 1} </h2>
+				<h2>contenido del main layout {1 + 1} </h2>
 				{children}
 			</body>
 		</html>
